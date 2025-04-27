@@ -28,7 +28,7 @@ export function TaskForm() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Add a new task..."
-          className="flex-grow px-4 py-2 border rounded-l focus:outline-none dark:bg-gray-800 dark:text-white dark:border-gray-700"
+          className="flex-grow px-8 py-2 border rounded-l focus:outline-none dark:bg-gray-800 dark:text-white dark:border-gray-700"
         />
         <button
           type="submit"
